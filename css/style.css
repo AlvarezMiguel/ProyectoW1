@@ -1,0 +1,22 @@
+#header {
+	margin:auto;
+	width: all;
+	font-family: Helvetica;
+}
+
+ul, ol{
+	list-style: none;
+
+}
+
+.navbar li a {
+	
+	margin:0px;
+	background-color: Black;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	float: left;;
+}
+
