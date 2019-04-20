@@ -1,51 +1,63 @@
 *{
-
 font-family: 'Comfortaa';
-
 }
-footer{ 
-    width: 100%;
-    max-width: 1600px;
-    background: green;
-    color: white; /*Color de letras*/
-    
+
+footer{
+    margin: auto;
+    max-width: 100%;
 }
 
 .container-footer{
     width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 40px;
-}
-
-.container-footer2{
+    min-width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
-    justify-content: space-between;
-   
+    justify-content: space-around;
+    background: green;
+
 }
 
-
-.row{
-    margin-top: 20px;
-    display: flex;
+.row{ /*separación*/
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-.row img{
-    width: 28px;
-    height: 28px;
+.row img{ /*dimesion iconos*/
+    width: 25px;
+    height: 25px;
+    margin: left;
+
 }
 
-.row label{
+.row label{ 
     margin-top: 10px;
     margin-left: 10px;
     color: white;
 }
 
-.row a{
-        color: white;
-       text-decoration: none;
+.row a{/*quitar subrayado*/
+    color: white;
+    text-decoration: none;
+}
+/*.row a:hover { Al pasar el cursor
+  background: #009933; 
+}*/
+
+.columna1 {
+   
+    color: white;
+    min-height: 150px;
+    
+}
+.columna2{
+
+    color: white;
+    min-height: 150px;
 }
 
-.row a:hover { /*Al pasar el cursor*/
-  background: #669933 ; 
+.columna3{
+    
+    color: white;
+    min-height: 150px;
 }
