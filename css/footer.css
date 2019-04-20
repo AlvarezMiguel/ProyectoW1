@@ -3,11 +3,11 @@
 font-family: 'Comfortaa';
 
 }
-footer{
+footer{ 
     width: 100%;
+    max-width: 1600px;
     background: green;
-    color: white;
-
+    color: white; /*Color de letras*/
     
 }
 
@@ -18,7 +18,7 @@ footer{
     padding: 40px;
 }
 
-.container-body{
+.container-footer2{
     display: flex;
     justify-content: space-between;
    
@@ -28,8 +28,6 @@ footer{
 .row{
     margin-top: 20px;
     display: flex;
-  
-   
 }
 
 .row img{
@@ -47,18 +45,7 @@ footer{
         color: white;
        text-decoration: none;
 }
+
 .row a:hover { /*Al pasar el cursor*/
   background: #669933 ; 
 }
-
-
-
-.footer{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;  
-    padding: 20px;
- text-decoration: none;
-}
-
