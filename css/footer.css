@@ -1,0 +1,64 @@
+*{
+
+font-family: 'Comfortaa';
+
+}
+footer{
+    width: 100%;
+    background: green;
+    color: white;
+
+    
+}
+
+.container-footer{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.row{
+    margin-top: 20px;
+    display: flex;
+  
+   
+}
+
+.row img{
+    width: 28px;
+    height: 28px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.row a{
+        color: white;
+       text-decoration: none;
+}
+.row a:hover { /*Al pasar el cursor*/
+  background: #669933 ; 
+}
+
+
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+ text-decoration: none;
+}
+
