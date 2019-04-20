@@ -31,6 +31,7 @@ nav{
   width: 100%; /*Espaciado a los lados*/
   max-width: 1800px;
   margin: auto;
+  
  
 }
 
@@ -118,7 +119,7 @@ padding: 10px;
 }
 
 #stats {
-  float: left;
+float: left;
 max-width: 90%;
 padding: 10px;
 }
