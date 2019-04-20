@@ -5,17 +5,18 @@ font-family: 'Comfortaa';
 footer{
     margin: auto;
     max-width: 100%;
+
 }
 
 .container-footer{
     width: 100%;
     max-width: 1800px;
-    min-width: 600px;
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
     justify-content: space-around;
     background: green;
+    margin: auto;
 
 }
 
@@ -48,17 +49,28 @@ footer{
 .columna1 {
    
     color: white;
-    min-height: 150px;
+    width: 33%;
+    padding: 10px;
     
 }
 .columna2{
 
     color: white;
-    min-height: 150px;
+       width: 33%;
+         padding: 10px;
 }
 
 .columna3{
     
     color: white;
-    min-height: 150px;
+       width: 33%;
+         padding: 10px;
+}
+
+@media screen and (width: 600px){
+    .container-footer{
+        display: inline-block;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }

@@ -1,37 +1,37 @@
-/*navbar*/
-nav {
-  background: black;
-  width: 100%;
-  margin: auto;
-
-  /*float: left;*/
+a{
+	font-family: 'Roboto Mono';
+}
+.nav-enlace{
+	display: inline-block;
+	background: black;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
 }
 
-nav ul {
-  list-style: none;
-  overflow: hidden; 
+.nav-enlace:hover{
+	background: gray;
 }
- 
-nav ul li {
-  float: left;
-  font-size: 16px;
+
+nav{
+	padding: 10px;
+	background: black;
+	display: flex;
+	justify-content: space-around;
+
 }
- 
-nav ul li a {
-  display: inline-block; 
-  padding: 20px;
-  color:white;
-  text-decoration: none;/*Quitar subrayado*/
-}
- 
-nav ul li:hover { /*Al pasar el cursor*/
-  background: gray ; 
+
+@media (max-width: 600px){
+	nav{
+		flex-direction: column;
+	}
 }
 
 .contenedor{
   width: 100%; /*Espaciado a los lados*/
   max-width: 1800px;
-  min-width: 600px;
+  margin: auto;
+ 
 }
 
 #letranav{
@@ -83,7 +83,7 @@ padding:15px;
     color: black;
     text-decoration: none;
 }
-.contenedortexto
+
 
 #imagenanime{
   padding: 10px;
