@@ -116,3 +116,9 @@ padding: 10px;
   height: 100%;
 
 }
+
+#stats {
+  float: left;
+max-width: 90%;
+padding: 10px;
+}
